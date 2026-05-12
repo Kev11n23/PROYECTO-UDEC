@@ -19,22 +19,6 @@ Protección contra SQL Injection: Todas las consultas a la base de datos están 
 Persistencia Relacional: Uso de SQLite con claves foráneas para mantener la integridad referencial entre empleados, productos y entregas.
 Acceso y registro de usuarios (ROOT): Por políticas de seguridad y control de auditoría, el acceso está restringido a una cuenta raíz de administración
 
-📂 Proyecto_EPP/
-├── 📄 main_gui.py         # Punto de entrada y orquestación de la interfaz
-├── 📄 init_bd.py         # Generacion de una base de datos limpia
-├── 📂 logic/               # Capa de Lógica de Negocio (Reglas del sistema)
-│   ├── 📄 auth_logic.py    # Seguridad y autenticación
-│   ├── 📄 inventory_logic.py # Gestión de stock y alertas
-│   ├── 📄 employee_logic.py # Gestión de empleados
-│   ├── 📄 epp_logic.py # Gestión de elementos
-│   ├── 📄 report_logic.py # Gestión de reportes
-│   └── 📄 delivery_logic.py  # Procesamiento de entregas
-├── 📂 database/            # Capa de Datos
-│   ├── 📄 connection.py    # Gestión de conexión a SQLite
-│   ├── 📄 epp.sql    # Estructura de la base de datos
-│   └── 📄 epp.db           # Base de datos relacional
-└── 📂 assets/              # Recursos visuales (Logos e iconos)
-
 🛠️ Tecnologías Utilizadas
 Lenguaje: Python 3.x
 GUI Framework: Tkinter / CustomTkinter
