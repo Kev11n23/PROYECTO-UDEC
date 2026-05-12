@@ -19,7 +19,6 @@ Protección contra SQL Injection: Todas las consultas a la base de datos están 
 Persistencia Relacional: Uso de SQLite con claves foráneas para mantener la integridad referencial entre empleados, productos y entregas.
 Acceso y registro de usuarios (ROOT): Por políticas de seguridad y control de auditoría, el acceso está restringido a una cuenta raíz de administración
 
-🏗️ Estructura del Proyecto
 📂 Proyecto_EPP/
 ├── 📄 main_gui.py         # Punto de entrada y orquestación de la interfaz
 ├── 📄 init_bd.py         # Generacion de una base de datos limpia
